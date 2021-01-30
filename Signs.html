@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   
+      <title>Road Safety Website</title>
+    <!-- </font> -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+       html { overflow-x: hidden; }
+
+      * {
+        /* border :solid; */
+        background-color:#14C346
+      }
+      .dropbtn {
+        background-color:   rgba(241, 113, 28, 0.993);
+        color: rgb(7, 6, 6);
+        padding: 16px;
+      
+        border: none;
+
+        padding: 15px 32px;
+   text-align: center;
+   text-decoration:none;
+   display: inline-block;
+   font-size: 20px;
+   margin: 10px 2px;
+   cursor: pointer; 
+   border-radius: 16px;
+       }
+
+      .dropdown {
+        display: flex;
+      
+        display: inline-block;
+    
+        padding: 15px 32px;
+   text-align: center;
+   text-decoration:none;
+   display: inline-block;
+   font-size: 20px;
+   margin: 10px 2px;
+   cursor: pointer;
+       
+       
+      }
+
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #fd0808;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(196, 6, 6, 0.952);
+        z-index: 1;
+      }
+
+      .dropdown-content a {
+        display:flex;
+     
+        justify-content: space-between;
+        color: rgb(68, 33, 224);
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+
+      .dropdown-content a:hover {
+        display: block;
+      }
+
+      .dropdown:hover .dropdown-content {
+        display: block;
+        background-color: #ddd;
+      }
+
+      .dropdown:hover .dropbtn {
+        background-color: #21c5f7;
+        border: none;
+  
+   
+      }
+      h1 {
+        text-align: center;
+      }
+
+      .blink {
+        animation: blinker 0.6s linear infinite;
+        color: #0f053d;
+        font-size: 55px;
+        font-weight: bold;
+        font-family: sans-serif;
+      }
+      @keyframes blinker {
+        50% {
+          opacity: 0;
+        }
+      }
+      
+      .signs{
+ 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+ 
+  
+      }
+  
+    </style>
+  </head>
+  <body>
+    <div class="heading">
+      
+      <h1><b> <i>
+        
+      
+
+      <p class="blink">ROAD SAFETY</p>
+    </b>
+    </h1>
+  </i>
+  </h1>
+</div>
+
+
+
+  
+    
+
+    <center>
+      <marquee hspace=10
+        bgcolor="transparent"
+        scrollamount="30"
+        direction="left"
+        width="2000px;"
+        style="float: left; position: relative"
+        loop="true"
+        height="300px"
+        onmouseover="this.stop()"
+        onmouseout="this.start()"
+      >
+        <img src="img1.jpg" width="1000" height="200" />
+        <img src="img2.jpg" width="1000" height="200" />
+        <img src="img3.jpg" width="1000" height="200" />
+      </marquee>
+    </center>
+   
+    <div class="dropdown">
+      <button class="dropbtn" style = "margin:0px">Home</button>
+      <div class="dropdown-content">
+        <a href="index.html">Home</a>
+        
+        
+     
+     
+    </div>
+    </div>
+    <div class="dropdown">
+
+      <button class="dropbtn" style = "margin :0px">Do's and Don'ts</button>
+      <div class="dropdown-content">
+        <a href="Dos.html">Do's</a>
+        <a href="Dont.html">Dont's</a>
+        
+      </div>
+    </div>
+
+    <div class="dropdown">
+
+        <button class="dropbtn" style = "margin :0px">Signs and Signals</button>
+        <div class="dropdown-content">
+          <a href="Signs.html">Signs</a>
+        <a href="Signals.html">Signals</a>
+        
+      </div>
+    </div>
+
+    <div class="dropdown">
+
+      <button class="dropbtn" style = "margin :0px">Rules</button>
+      <div class="dropdown-content">
+        <a href="Rules.html">Rules</a>        
+        
+      </div>
+    </div>
+
+
+    <div class="signs"> 
+
+
+
+    <img src="signs.png"  width="700" height="500" text-align= "center">
+
+    <div class="fig1">
+    <figure>
+      <figcaption> <h1> Mandatory Traffic Signs</h1></figcaption> 
+         </figure>
+          </div>
+       
+
+
+
+         
+      
+            <img src="sign2.png"  width="700" height="500">
+        
+            <div class="fig2">
+                  <figure>
+                <h1> <figcaption>Cautionary Traffic Signs </h1></figcaption> 
+                  </figure>
+                 </div>
+
+
+
+
+
+         <img src="sign3.png"  width="700" height="500">
+         <div class="fig3"> 
+         <figure>
+        <h1> 
+            <figcaption>Informative Signs </figcaption> 
+      </figure>
+    </h1>
+
+</div>
+
+ </div> 
+ </h1>
+  </body>
+</html>
